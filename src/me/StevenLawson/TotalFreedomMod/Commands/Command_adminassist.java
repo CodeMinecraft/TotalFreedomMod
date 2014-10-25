@@ -1,7 +1,7 @@
 package me.StevenLawson.TotalFreedomMod.Commands;
 
 @CommandPermissions(level = AdminLevel.ALL, source = SourceType.BOTH)
-@CommandParameters(description = " Call a admin for help .", usage = "/<command>, aliases = "aa")
+@CommandParameters(description = "Call admins for help.", usage = "/<command>", aliases = "aa")
 public class Command_aa extends TFM_Command
 {
 
