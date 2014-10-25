@@ -23,5 +23,7 @@ public class Command_devmode extends TFM_Command
         {
             
             TFM_Util.adminAction(sender.getName(), "DevMode has been enabled, warning: Weird Stuff Might Happen!.", true);
-            
+             return true;
+    }
+}
             {
